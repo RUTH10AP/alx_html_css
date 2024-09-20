@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; 
+}
+
+header, footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+
+article, aside {
+    padding: 20px;
+    overflow-y: auto; 
+}
+
+
+article {
+    flex: 2; 
+    background-color: #e0f7fa; 
+}
+
+
+aside {
+    flex: 1; 
+    background-color: #ffe0b2; 
+}
+
+
+footer {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+}
