@@ -49,3 +49,29 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media (max-width: 768px) {
+    body.works_on_smartphone {
+        flex-direction: column; 
+    }
+
+    main {
+        flex-direction: column; 
+
+    }
+
+    article, aside {
+        flex: 1; 
+    }
+}
